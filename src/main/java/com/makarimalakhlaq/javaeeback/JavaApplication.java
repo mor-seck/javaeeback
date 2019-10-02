@@ -17,6 +17,6 @@ public class JavaApplication extends SpringBootServletInitializer implements Com
     PasswordEncoder encoder;
     @Override
     public void run(String... args) throws Exception {
-        System.out.println(encoder.encode("password"));
+        System.out.println(encoder.encode("eleves00"));
     }
 }
